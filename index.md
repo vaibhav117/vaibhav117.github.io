@@ -1,3 +1,6 @@
+---
+title: Welcome to Vaibhav's blog
+---
 <ul>
   {% for post in site.posts %}
     <li>
