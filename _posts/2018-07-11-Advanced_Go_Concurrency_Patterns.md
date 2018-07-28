@@ -1,4 +1,7 @@
-#Advanced_Go_Concurrency_Patterns
+---
+layout: post
+title: Advanced Go Concurrency Patterns
+---
 
 Concurrency in Go is implemented using Goroutines.
 Goroutines are functions or methods that run concurrently with other functions or methods. They can be thought of as light weight threads. The cost of creating a Goroutine is tiny when compared to a thread. Hence its common for Go applications to have thousands of Goroutines running concurrently.

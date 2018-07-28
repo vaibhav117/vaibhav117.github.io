@@ -1,4 +1,7 @@
-#Welcome_to_Vaibhav's_blog!
+---
+layout: post
+title: Welcome to Vaibhav's blog!
+---
 
 <ul>
   {% for post in site.posts %}
