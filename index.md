@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Welcome to Vaibhav's blog!
+layout: page
+title: "Welcome to Vaibhav's blog!"
 ---
 
 <ul>
