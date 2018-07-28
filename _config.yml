@@ -3,6 +3,6 @@ author: Vaibhav Mathur
 email: vaibhavmathur117@gmail.com
 titles_from_headings:
   enabled:     true
-  strip_title: true
-  collections: true
+  strip_title: false
+  collections: false
 
