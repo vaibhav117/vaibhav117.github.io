@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 author: Vaibhav Mathur
 email: vaibhavmathur117@gmail.com
+title: Vaibhav's Blog
 titles_from_headings:
   enabled:     true
   strip_title: false
@@ -9,3 +10,6 @@ text:
   pagination:
     newer: 'Newer'
     older: 'Older'
+links:
+  - title: HOME
+    url: /
