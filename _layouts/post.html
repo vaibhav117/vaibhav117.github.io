@@ -1,14 +1,9 @@
----
-layout: default
----
-
 {% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
 {% endif %}
 
 
-  
   {% for page in site.pages_list %}
     &nbsp;&nbsp;&nbsp;
     <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
