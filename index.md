@@ -6,7 +6,7 @@ layout: defaults
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a id="project_tagline" href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
