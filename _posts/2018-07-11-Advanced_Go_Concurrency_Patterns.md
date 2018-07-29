@@ -1,6 +1,6 @@
 ---
 title: "Advanced Go Concurrency Patterns"
-layout: defaults
+layout: post
 ---
 
 Concurrency in Go is implemented using Goroutines.
