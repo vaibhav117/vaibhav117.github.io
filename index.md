@@ -2,9 +2,6 @@
 title: "Welcome to my blog"
 layout: default
 ---
-<head>
-  hey
-<head>
 
 <ul>
   {% for post in site.posts %}
