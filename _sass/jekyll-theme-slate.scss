@@ -282,11 +282,11 @@ Full-Width Styles
 }
 
 #home_banner {
+    display: inline;
     position: absolute;
     top:0;
     left: 0px;
     z-index: 10;
-    padding: 10px 10px 10px 10px;
     color: #fff;
     font-weight: 700;
   }
