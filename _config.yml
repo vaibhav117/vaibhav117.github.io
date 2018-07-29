@@ -17,4 +17,4 @@ links:
 pages_list:       
   #About: '/about'
   #Archive: '/archive'
-  Home: './index.md'
+  Home: '/index'
