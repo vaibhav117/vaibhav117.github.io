@@ -1,6 +1,6 @@
 ---
 title: "Welcome to my blog"
-layout: default
+layout: defaults
 ---
 
 <ul>
