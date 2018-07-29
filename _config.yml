@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 author: Vaibhav Mathur
 email: vaibhavmathur117@gmail.com
+url: https://vaibhav117.github.io/
 title: Vaibhav's Blog
 titles_from_headings:
   enabled:     true
