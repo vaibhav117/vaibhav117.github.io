@@ -2,96 +2,79 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Vaibhav Mathur
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11th July 1995
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master's in Computer Engineering
+      institution: New York University
+      year: Jan 2021 - Dec 2022
+      
+    - title: Bachelor's in Information Technology
+      institution: Netaji Subhas Institute of Technology (Univeristy of Delhi)
+      year: Jun 2013 - Apr 2017
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Gradutate Research Assistant
+      institution: CILVR Lab, New York University, New York City, US
+      year: June 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Exploring Reinforcement Learning (RL) and Self Supervised Learning (SSL) methods for Robot Learning under Prof. Lerrel Pinto
+        - Developed a novel Inverse RL method called Regularised Optimal Transport that adaptively combines an Imitation Learning prior with RL exploration capable of learning many robotics tasks using a single expert demo with a 7.8x speedup to reach a 90% success rate over existing baselines.
+        - Created a framework for Vision based learning using RL, sim2real and Domain Randomisation methods to adapt a policy trained in Simulation to the real world to complete tasks such as Pick and Place and PegInsertion.
+
+    - title: Software Development Engineer
+      institution: Zomato, Gurgaon, India
+      year: Feb 2019 - Nov 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Built Zomato’s in-house Distributed and Highly Scalable Monitoring and Alerting Platform. The platform reduced incident response time by 80% and allowed for Preemptive Incident Detection and Alerting.
+        - Created the Dynamic Inter-service Discovery and Communication for microservices using Envoy and a Golang microservice for AWS ECS Container discovery enabling migration to a microservice-based architecture.
+        - Set up Zomato’s Distributed Relational Database. It distributed query load and reduced query failure rates by 87%.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Software Engineer
+      institution: Hong Kong Shanghai Bank (HSBC), Pune, India
+      year: Sept 2013 - Feb 2019
       description:
+        - Led team’s service migration to HSBC’s Internal Cloud Platform.
+        - Created the Microservice Deployment Service acting as an internal CICD tool in Spring Boot. Reduced service deployment incidents by 53% and decreased the service deployment time to <1 min.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/vaibhav117/Colab-Editor">Collab-Editor</a>
+      description:
+        - Browser-based Simple Collaborative Text Editor.
+        - Implemented it using Replicated Growable Array, a type of Conflict-Free Replicated Data Type (CRDT) to achieve eventual consistency even if the user is not connected to the internet.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: <a href="https://github.com/vaibhav117/sim2real">Sim2Real</a>
+      description:
+        - Transfering an RL policy learnt in simulation to a real Xarm7 robot.
+        - Used Asymmetric Actor Critic model to learn the policy in Mujoco simulation.
+        - Used Domain Randomisation as means for Domain Adaptation to the real world.
+        - Used Hindsight Experience Replay (HER) to allow more efficient learning in a Sparse Reward setting.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://github.com/vaibhav117/Distributed-SSL">Distributed Training</a>
+      description:
+        - Created a Distributed Training Pipeline for learning Self-Supervised embeddings for various downstream tasks from images using Pytorch Distributed Data-Parallel.
+
+    - title: <a href="https://github.com/hydra-hoard">Hydra</a>
+      description:
+        - A P2P platform to generate, share, contribute to ML Datasets and train Deep Learning models.
+        - Implemented a Distributed Hash Table for Node Discovery, Multi-tracker approach using Raft to create a fault-tolerant archive of datasets. Used All-Reduce to run Synchronous Stochastic Gradient Descent for distributed training.
+
+    - title: <a href="https://github.com/vaibhav117/MARL">MARL</a>
+      description:
+        - Implemented Multi-Agent Reinforcement Learning (MARL) using 2 Independent DQNs with information sharing to master the game of Knights Archers Zombies.
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Playing and watching(and agonizing) Soccer, solving Rubick's Cubes, Hiking.
