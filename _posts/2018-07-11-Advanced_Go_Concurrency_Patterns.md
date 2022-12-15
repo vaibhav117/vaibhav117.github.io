@@ -7,7 +7,7 @@ date: 2018-07-11 08:31:19 -0700
 Concurrency in Go is implemented using Goroutines.
 Goroutines are functions or methods that run concurrently with other functions or methods. They can be thought of as light weight threads. The cost of creating a Goroutine is tiny when compared to a thread. Hence it's common for Go applications to have thousands of Goroutines running concurrently.
 
-Inorder to communicate between these Goroutines, Go implements channels.
+In-order to communicate between these Goroutines, Go implements channels.
 Channels send and receive data until the other side is ready. This allows Goroutines to synchronize without explicit locks or condition variables.
 
 ## Synchronized Channels
